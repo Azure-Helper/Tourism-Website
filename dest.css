@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 3px;
+   
+}
+.hd{
+    height: 100vh;
+
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+    height: 65px;
+    padding: 0px 10px;
+}

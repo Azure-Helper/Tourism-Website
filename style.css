@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 5px;
+}
+.hd {
+  height: 100vh;
+}
+.navbar-style {
+  background-color: oldlace;
+  box-shadow: 0 5px 10px #efefef;
+}
+.logo {
+  height: 65px;
+  padding: 0px 10px;
+}
+.icon-bar {
+  background: rgb(3, 180, 33);
+}
+li a {
+  color: black;
+}
+.bt {
+  font-size: 25px;
+  margin: 20px 0;
+  color: royalblue;
+  font-family: monospace;
+}
+a.btn {
+  margin: 50px 25px;
+  width: 150px;
+  padding: 20px;
+  border-radius: 5px;
+}
+a.btn-first {
+  border: 1px solid rgb(0, 161, 40);
+  color: #333;
+}
+a.btn-second {
+  border: 1px solid rgb(0, 161, 40);
+  color: #333;
+}
+
+a.btn:hover {
+  background: rgb(0, 161, 40);
+  border: none;
+  color: white;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
+}
+.hhdd {
+  font-size: 50px;
+  color: rgb(3, 180, 33);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
