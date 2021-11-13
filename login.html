@@ -17,6 +17,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
   </head>
   <body>
     <header class="hd">
@@ -48,50 +49,42 @@
       </nav>
       <section class="form my-4 mx-5">
         <div class="cntner">
-          <div class="row no-gutters">
-            <div class="col-lg-5">
-              <img
-                src="./image/toplogo.png"
-                alt=""
-                class="img-fluid img-responsive"
-              />
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                </div>
+                <div class="col-lg-7 px-7 pt-5">
+                    <h1 class=" font-weight-bold py-3">Kerala Tourism</h1>
+                    <h4>Sign into your account</h4>
+                    <form action="dest.html"onsubmit="return validation()">
+                        <div class="foam-row">
+                            <div class="col-lg-7">
+                               <input type="text" placeholder="User Name" class="form-control my-3 p-4" id="user" autocomplete="off">
+                               <span id="username" class="text-danger font-weight-bold"> </span>
+                              
+                            </div>
+                        </div>
+                        <div class="foam-row">
+                           <div class="col-lg-7">
+                               <input type="password" placeholder="Enter password" class="form-control" id="password">
+                               <span id="passwordd" class="text-danger font-weight-bold"> </span>
+                           </div>
+                       </div>
+                       <div class="foam-row">
+                           <div class="col-lg-7">
+                              <button class="btn1 mt-3 mb-5">Login</button>
+                           </div>
+                       </div>
+                       <p>Don't have an account? <a href="signup.html">Create here</a></p>
+                       <a href="#">Forgot Password</a>
+                      
+                    </form>
+                </div>
             </div>
-            <div class="col-lg-7 px-7 pt-5">
-              <h1 class="font-weight-bold py-3">Kerala Tourism</h1>
-              <h4>Sign into your account</h4>
-              <form>
-                <div class="foam-row">
-                  <div class="col-lg-7">
-                    <input
-                      type="email"
-                      placeholder="Email-Address"
-                      class="form-control my-3 p-4"
-                    />
-                  </div>
-                </div>
-                <div class="foam-row">
-                  <div class="col-lg-7">
-                    <input
-                      type="password"
-                      placeholder="Enter password"
-                      class="form-control"
-                    />
-                  </div>
-                </div>
-                <div class="foam-row">
-                  <div class="col-lg-7">
-                    <button type="button" class="btn1 mt-3 mb-5">Login</button>
-                  </div>
-                </div>
-                <p>
-                  Don't have an account? <a href="signup.html">Create here</a>
-                </p>
-                <a href="#">Forgot Password</a>
-              </form>
-            </div>
-          </div>
         </div>
-      </section>
-    </header>
-  </body>
+    </section>
+ 
+</header>
+
+
+</body>
 </html>
