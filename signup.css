@@ -1,7 +1,6 @@
 * {
-  margin: 0;
-  padding: 3px;
-  box-sizing: border-box;
+  margin: 0px;
+  padding: 5px;
 }
 .hd {
   height: 100vh;
@@ -15,7 +14,7 @@
   padding: 0px 10px;
 }
 .icon-bar {
-  background: rgb(0, 248, 62);
+  background: rgb(3, 180, 33);
 }
 li a {
   color: black;
@@ -24,22 +23,30 @@ body {
   background: black;
 }
 .row {
-  background-color: rgb(223, 223, 223);
-  border-radius: 40px;
-  box-shadow: 12px 12px 22px grey;
+  background-color: oldlace;
+  border-radius: 5px;
+  box-shadow: 12px 12px 22px #efefef;
 }
 .btn1 {
   border: none;
   outline: none;
   height: 50px;
   width: 100%;
-  background-color: black;
-  color: white;
-  border-radius: 4px;
+  background-color: white;
   font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid rgb(0, 161, 40);
+  color: #333;
 }
 .btn1:hover {
-  background-color: white;
+  background-color: rgb(0, 161, 40);
   border: 1px solid;
-  color: black;
+  color: white;
+}
+.signup {
+  font-size: 25px;
+  color: rgb(3, 180, 33);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
