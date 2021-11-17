@@ -1,50 +1,60 @@
 * {
-  margin: 0px;
+  margin: 0;
   padding: 5px;
+  box-sizing: border-box;
 }
-.hd{
-    height: 100vh;
+.hd {
+  height: 100vh;
 }
-.navbar-style{
-    background-color: oldlace;
-    box-shadow: 0 5px 10px #efefef;
+.navbar-style {
+  background-color: oldlace;
+  box-shadow: 0 5px 10px #efefef;
 }
-.logo{
-    height: 65px;
-    padding: 0px 10px;
+.logo {
+  height: 65px;
+  padding: 0px 10px;
 }
-.icon-bar{
-    background: rgb(3, 180, 33);
+.icon-bar {
+  background: rgb(0, 165, 36);
 }
-li a{
-    color: black;
+li a {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-body{
-    background: black;
+li a:hover {
+  color: rgb(3, 180, 33);
 }
-.row{
-    background-color: oldlace;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px #efefef;
-    
+body {
+  background: black;
 }
-.btn1{
-    border: none;
-    outline: none;
-    height: 50px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    border-radius: 4px;
-    font-weight: bold;
+h1 {
+  color: rgb(255, 0, 0);
 }
-.btn1:hover{
-    background-color: rgb(0, 161, 40);
-    border: 1px solid;
-    color: black;
+.row {
+  height: auto;
+  width: auto;
+  background-color: oldlace;
+  border-radius: 8px;
+  box-shadow: 10px 10px 10px #efefef;
 }
-.sigin {
-  font-size: 25px;
+.btn1 {
+  height: 50px;
+  width: 100%;
+  border: 1px solid rgb(0, 161, 40);
+  color: #333;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn1:hover {
+  background: rgb(0, 161, 40);
+  border: none;
+  color: white;
+  box-shadow: 5px 5px 10px #999;
+  transition: 0.3s;
+}
+.login {
+  font-size: 40px;
   color: rgb(3, 180, 33);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

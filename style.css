@@ -18,6 +18,11 @@
 }
 li a {
   color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+li a:hover {
+  color: rgb(3, 180, 33);
 }
 .bt {
   font-size: 25px;
@@ -26,8 +31,8 @@ li a {
   font-family: monospace;
 }
 a.btn {
-  margin: 40px 20px;
-  width: 125px;
+  margin: 50px 10px;
+  width: 150px;
   padding: 20px;
   border-radius: 5px;
 }

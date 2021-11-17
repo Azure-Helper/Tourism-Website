@@ -17,7 +17,6 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="login.js"></script>
   </head>
   <body>
     <header class="hd">
@@ -41,7 +40,7 @@
           <div class="collapse navbar-collapse" id="ic">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="index.html">Home</a></li>
-              <li><a href="dest.html">Districts</a></li>
+              <li><a href="index.html">Districts</a></li>
               <li><a href="">About</a></li>
             </ul>
           </div>
@@ -49,42 +48,54 @@
       </nav>
       <section class="form my-4 mx-5">
         <div class="cntner">
-            <div class="row no-gutters">
-                <div class="col-lg-5">
+          <div class="row no-gutters">
+            <div class="col-lg-12 px-7 pt-5">
+              <h1 class="login">LOGIN</h1>
+              <form action="index.html" onsubmit="return validate()">
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="text"
+                      placeholder="Username"
+                      id="user"
+                      class="form-control my-3 p-4"
+                      autocomplete="off"
+                    />
+                    <span id="username" class="text-danger font-weight-bold">
+                    </span>
+                  </div>
                 </div>
-                <div class="col-lg-7 px-7 pt-5">
-                    <h1 class=" font-weight-bold py-3">Kerala Tourism</h1>
-                    <h4>Sign into your account</h4>
-                    <form action="dest.html"onsubmit="return validation()">
-                        <div class="foam-row">
-                            <div class="col-lg-7">
-                               <input type="text" placeholder="User Name" class="form-control my-3 p-4" id="user" autocomplete="off">
-                               <span id="username" class="text-danger font-weight-bold"> </span>
-                              
-                            </div>
-                        </div>
-                        <div class="foam-row">
-                           <div class="col-lg-7">
-                               <input type="password" placeholder="Enter password" class="form-control" id="password">
-                               <span id="passwordd" class="text-danger font-weight-bold"> </span>
-                           </div>
-                       </div>
-                       <div class="foam-row">
-                           <div class="col-lg-7">
-                              <button class="btn1 mt-3 mb-5">Login</button>
-                           </div>
-                       </div>
-                       <p>Don't have an account? <a href="signup.html">Create here</a></p>
-                       <a href="#">Forgot Password</a>
-                      
-                    </form>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="password"
+                      placeholder="Enter password"
+                      id="pass"
+                      class="form-control my-3 p-4"
+                    />
+                    <span id="password" class="text-danger font-weight-bold">
+                    </span>
+                  </div>
                 </div>
+                <div class="col-md-2 col-md-offset-3 col-lg-6">
+                  <a href="#">Forgot Password?</a>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <button class="btn1 mt-3 mb-5" id="login">Login</button>
+                  </div>
+                </div>
+                <div class="col-md-2 col-md-offset-3 col-lg-6">
+                  <p>
+                    Don't have an account? <a href="signup.html">Create here</a>
+                  </p>
+                </div>
+              </form>
+              <script src="login.js"></script>
             </div>
+          </div>
         </div>
-    </section>
- 
-</header>
-
-
-</body>
+      </section>
+    </header>
+  </body>
 </html>
