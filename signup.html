@@ -49,59 +49,93 @@
       <section class="form my-4 mx-5">
         <div class="cntner">
           <div class="row no-gutters">
-            <div class="col-lg-5">
-              <img
-                src="./image/clipart3633277.png"
-                alt=""
-                class="img-fluid img-responsive"
-              />
+            <div class="col-lg-12 px-7 pt-5">
+              <h1 class="signup">SIGN UP</h1>
+              <form action="login.html" onsubmit="return validate()">
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="text"
+                      placeholder="Username"
+                      class="form-control my-3 p-4"
+                      id="uname"
+                    />
+                    <span
+                      id="username1"
+                      class="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="email"
+                      placeholder="Email-Address"
+                      class="form-control my-3 p-4"
+                      id="email"
+                    />
+                    <span
+                      id="email1"
+                      class="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="text"
+                      placeholder="Mobile number"
+                      class="form-control my-3 p-4"
+                      id="phone1"
+                    />
+                    <span
+                      id="phoneno"
+                      class="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="password"
+                      placeholder="Enter password"
+                      class="form-control"
+                      id="password1"
+                    />
+                    <span
+                      id="pass1"
+                      class="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <input
+                      type="password"
+                      placeholder="Confirm Password"
+                      class="form-control"
+                      id="password2"
+                    />
+                    <span
+                      id="pass2"
+                      class="text-danger font-weight-bold"
+                    ></span>
+                  </div>
+                </div>
+                <div class="foam-row">
+                  <div class="col-md-2 col-md-offset-3 col-lg-6">
+                    <button class="btn1 mt-3 mb-5">Sign Up</button>
+                  </div>
+                </div>
+                <div class="col-md-2 col-md-offset-3 col-lg-6">
+                  <p>Alredy have an account? <a href="login.html">Login</a></p>
+                </div>
+              </form>
+              <script src="signup.js"></script>
             </div>
-            <div class="col-lg-7 px-7 pt-5">
-              <h1 class="font-weight-bold py-3">Kerala Tourism</h1>
-              <h4>Create New Account</h4>
-               <form action="login.html" onsubmit="return validate()"> 
-                            <div class="foam-row">
-                                <div class="col-lg-7">
-                                    <input type="text" placeholder="Username" id="uname" class="form-control my-3 p-4">
-                                    <span id="usernamee" class="text-danger font-weight-bold"></span>
-                                </div>
-                            </div>
-                             <div class="foam-row">
-                                 <div class="col-lg-7">
-                                     <input type="email" placeholder="Email-Address" id="email" class="form-control my-3 p-4">
-                                     <span id="emaill" class="text-danger font-weight-bold"></span>
-                                     </div>
-                                    </div>
-                             <div class="foam-row">
-                                <div class="col-lg-7">
-                                    <input type="password" placeholder="Enter password" id="password1" class="form-control" onkeyup="return passwordchanged();"/>
-                                    <span id="pass" class="text-danger font-weight-bold"></span>
-                                </div>
-                            </div>
-                            <div class="foam-row">
-                                <div class="col-lg-7">
-                                    <input type="password" placeholder="Re-Enter password" id="password2" class="form-control">
-                                    <span id="pass1" class="text-danger font-weight-bold"></span>
-                                </div>
-                            </div>
-                            <div class="foam-row">
-                                <div class="col-lg-7">
-                                    <input type="text" placeholder="Mobile number" id="phone1" class="form-control my-3 p-4">
-                                    <span id="mobileno" class="text-danger font-weight-bold"></span>
-                                </div>
-                            </div>
-                            <div class="foam-row">
-                                <div class="col-lg-7">
-                                   <button class="btn1 mt-3 mb-5">Sign Up</button>
-                                </div>
-                            </div>
-                         </form>
-                     </div>
-                     
-                 </div>
-             </div>
-         </section>
+          </div>
+        </div>
+      </section>
     </header>
-    <script src="signup.js"></script>
-</body>
+  </body>
 </html>

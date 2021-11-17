@@ -1,17 +1,15 @@
-function validation(){
+let user = document.getElementById("user");
+let pass = document.getElementById("pass");
 
-    var user = document.getElementById('user').value;
-    var password = document.getElementById('password').value;
-
-
-
-    if(user == ""){
-        document.getElementById('username').innerHTML =" ** Please fill the username field";
+function validate(){
+    if(user.value==""){
+        user.style.border="2px solid red";
+        document.getElementById('username').innerHTML ="Username* Please fill in this field";
         return false;
     }
-    if(password == ""){
-        document.getElementById('passwordd').innerHTML =" ** Please Enter Password";
+    if(pass.value==""){
+        pass.style.border="2px solid red";
+        document.getElementById('password').innerHTML ="Password* Please fill in this field";
         return false;
     }
-
 }
